@@ -1,0 +1,261 @@
+/*color:
+d4e9f4;
+#fff;
+#303030;
+color*/
+
+/*fonts:
+'Goudy Bookletter 1911',
+serif,
+
+*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+/*home*/
+.fa-events-icons-ready{
+    padding: 0;
+}
+body,header{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#d4e9f4;
+    font-size:0.618rem;
+    line-height: 1.5;
+}
+
+header .logo{
+    text-align: center;
+}
+
+    nav-bar ul {
+    list-style: none;
+    padding: 0;
+     margin:0;
+}
+.nav-bar ul {
+    padding:0em 1em 0 1em;
+    margin:0;
+}
+.nav-bar li {
+    display: inline;
+   
+}
+.nav-bar li a {
+    display: block;
+    text-align: center;
+    background-color: #303030;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    width:100%; 
+    
+}
+h6{
+    margin:0;
+}
+a{
+    padding-top: 10px;
+     padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.masthead{
+    width: 100%;
+    position: relative;
+    height:100%;
+} 
+.masthead h1{
+    position:absolute;
+    color:#fff;
+top:50%;
+      left:25%;
+    
+}
+.masthead img{
+    
+    width: 100%;
+    height: 50%;
+  
+}
+
+
+figure{
+    margin:0;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    width:100%;
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Libre Franklin', sans-serif;
+}
+p{
+   font-family: 'Libre Franklin', sans-serif; 
+}
+main{
+     margin:0;
+    padding: 0;
+}
+.box{
+    margin:0;
+    padding: 0;
+}
+.row{
+    width:100%;
+   
+}
+.col{
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.col-6{
+    width: 100%;
+     margin:0;
+    padding: 0;
+}
+
+.bg-main{
+
+     margin:0;
+    padding: 1em;
+
+}
+
+
+h4{
+    text-align: center;
+    margin-bottom: 2em;
+}
+footer p{
+    text-align: center;
+}
+.box h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.icon {
+    text-decoration: none;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.icon li{
+    width: 25%;
+    box-sizing: border-box;
+     float: left;
+    list-style-type: none;
+}
+.icon li a{
+    color:white;
+}
+footer {
+    background-color: #303030;
+   overflow: auto;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem;
+}
+
+footer li {
+    box-sizing: border-box;
+    width: 10%;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    float: left;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+
+footer .info h3{
+    color:#fff;
+} 
+.info{
+    text-align: center;
+    margin-top: 4em;
+}
+
+/*home*/
+
+/*contact*/
+.bg-main
+.bg-main h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+    border:none;
+}
+
+#name,#email,#subject,#comment,#send{
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+#comment{
+    margin-bottom: 0;
+    height: 4.5em;
+}
+#send{
+    margin-top: 0.6em;
+   
+}
+.box h1{
+    text-align: center;
+}
+.feedback li,.feedback p{
+    text-align: center;
+list-style: none;
+}
+/*contact*/
+@media screen and (min-width: 35rem)  and (max-width: 60rem){
+    body{
+        font-size: 1rem;
+    }
+     .nav-bar ul {
+   width: 100%;
+    }
+    .nav-bar li {
+    display: inline;
+    float: left;
+    
+     margin-right: 1em;
+        width: calc(50% - 1.6em);
+        float: left;}
+    
+     .nav-bar li:last-child {
+        margin-right: 0;
+    }
+    .first figure{
+        width: 40%;
+        float: left;
+        margin: 0 2em 1em 0;
+    }
+
+    
+}
+}
+@media screen and (min-width: 80rem) {}
